@@ -1,0 +1,3862 @@
+@font-face {
+    font-family: Work Sans;
+    src: url(./fonts/WorkSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Work Sans;
+    src: url(./fonts/WorkSans-Regular.ttf);
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(43, 43, 43, 1);
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.navLogo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+    
+
+.logo{
+    width: 200px;
+    height: 20px;
+}
+
+.navMenu{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navMenu>a{
+    padding: 0 20px 0 20px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.signIn{
+    width: auto;
+    justify-content: center;
+    height: 60px;
+    padding: 0 30px 0 30px;
+    border-radius: 20px;
+    border: none;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: rgba(162, 89, 255, 1);
+}
+
+.burgerMenu{
+    display: none;
+}
+
+
+/* heroSection */
+.heroSection{
+    display: flex;
+    flex-direction: row;
+    margin-inline: auto;
+    max-width: 1050px;
+    /* width: 100%; */
+    padding: 80px 0 80px 0;}
+
+.heroSectionFrame{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+.heroSectionFrameMob{
+    display: none;
+}
+.heroTextButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px !important;
+    width: 45%;
+}
+
+.headlineSubhead{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.Homepageheadline{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-transform: capitalize;
+}
+
+.HomepageSubhead{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.getStarted{
+    width: 224px;
+    height: 60px;
+    padding: 0 50px 0 50px;
+    border-radius: 20px;
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(162, 89, 255, 1);
+    border: none;
+}
+
+.formob>img{
+    width: 100%;
+}
+
+.additionalInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.totalSale{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.additionalInfospan{
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.highlitedNFT{
+    width: 100%;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+}
+
+.highlitedNFT>img{
+    width: 100%;
+    height: 401px;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.frame230{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0 0 20px 20px;
+}
+
+.space{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+.artistcard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.cardLink{
+    text-decoration: none;
+}
+
+.artist{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+/* Trending collection */
+
+.Section{
+    margin-inline: auto;
+    max-width: 1050px;
+    width: 100%;
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 60px;
+
+}
+
+.sectionHeadline{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SectionHeading{
+    margin: 0;
+    text-transform: capitalize;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.SectionSubhead{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.collectionCardRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.collectionCard{
+    width: 31.5%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.photosNumbers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.frame228{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.numberDiv{
+    width: 100px;
+    height: 100px;
+    padding: 32px 15px 32px 15px;
+    border-radius: 20px;
+    gap: 10px;
+    background-color: rgba(162, 89, 255, 1);
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.collectionInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Name{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Top Rated Artists */
+
+.headlineButtons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+
+.rockeet{
+    width: 248px;
+    height: 60px;
+    padding: 0 50px 0 50px;
+    border-radius: 20px;
+    border: 2px solid rgba(162, 89, 255, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+}
+.NFTButton{
+    cursor: pointer;
+    width: auto;
+    height: 60px;
+    padding: 0 50px 0 50px;
+    border-radius: 20px;
+    border: 2px solid rgba(162, 89, 255, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+}
+
+.rocketSpan{
+    width: 115px;
+}
+
+
+/* .smallerGrid{
+    display: flex;
+    justify-content: center;
+} */
+
+.artistCardGrid{
+    
+    /* width: 90%; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.artistcardsRowmob{
+    display: none;
+}
+
+.ArtistCards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.artistcardsRow{
+    width: 100%;
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 30px; */
+}
+
+
+.TopartistCard{
+    width: 240px;
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.TopartistCard>img{
+    margin: auto;
+    width: 120px;
+    height: 120px;
+}
+
+.artistInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.additionalInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.totalSale2{
+    width: 95px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(133, 133, 132, 1);
+}
+
+.base{
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+} 
+
+.runkingNumber{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+    position: absolute;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(133, 133, 132, 1);
+
+}
+
+
+/* browse */
+.categoryCardsGrid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.categoryCardsRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.categoryCardsRow>a{ 
+    width: 25%;
+}
+
+
+.categoryCard{
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.photoIcon{
+    width: auto;
+    height: 240px;
+    border-radius: 20px;
+    background-image: url(./assets/catImage\ Placeholder.png);
+} 
+
+.photoIcon2{
+    width: auto;
+    height: 240px;
+    border-radius: 20px;
+    background-image: url(./assets/Image\ Placeholder\ \(2\).png);
+} 
+.photoIcon3{
+    width: auto;
+    height: 240px;   
+    border-radius: 20px;
+    background-image: url(./assets/Image\ 1.png);
+} 
+
+.photoIcon4{
+    width: auto;
+    height: 240px;
+    border-radius: 20px;
+    background-image: url(./assets/Image\ 2.png);
+} 
+
+.photoIcon5{
+    width: auto;
+    height: 240px;
+    border-radius: 20px;
+    background-image: url(./assets/Image\ 5.png);
+} 
+
+.photoIcon6{
+    width: auto;
+    height: 240px;
+    border-radius: 20px;
+    background-image: url(./assets/Image\ 6.png);
+} 
+
+.photoIcon7{
+    width: auto;
+    height: 240px;
+    border-radius: 20px;
+    background-image: url(./assets/Image\ 7.png);
+} 
+
+.photoIcon8{
+    width: auto;
+    height: 240px;
+    border-radius: 20px;
+    background-image: url(./assets/Image\ 8.png);
+} 
+
+
+.iconDiv{
+    width: auto;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px  0 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+.collectionName2{
+    margin: 0;
+    width: 100%;
+    height: 76px;
+    padding: 20px 30px 25px 30px;
+}
+
+
+
+
+
+/* Discover */
+
+.eye{
+    width: 187px;
+    height: 60px;
+    padding: 0 42px 0 42px;
+    border-radius: 20px;
+    border: 2px solid rgba(162, 89, 255, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: transparent;
+}
+
+.NFTCardRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.NFTCardRow>a{
+    width: 31%;
+    text-decoration: none;
+}
+.NFTCard, .NFTCardArtPage{
+    /* width: 100%; */
+    height: 469px;
+    border-radius: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.NFTCard>img{
+    width: 100%;
+    height: 296px;
+}
+
+.NFTCardArtPage>img{
+    width: 100%;
+    height: 296px;
+}
+
+.NFTArtsInfo{
+    padding: 20px 30px 25px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.NFTArts{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.NFTArtsAvatar{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.NFTAdditionalInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.Price{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.PriseSpan{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(133, 133, 132, 1);
+}
+
+.currency{
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.HighestBid{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.HighestBidSpan{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(133, 133, 132, 1);
+}
+
+.HighestBidcurrency{
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* NFT Highlight */
+.NFTHighlight{
+    height: 640px;
+    background-image: url(./assets/NFT\ Highlight.png);
+    background-size: cover;
+}
+
+.NFTHighInfo{
+    position: relative;
+    padding-top: 360px;
+    display: flex;
+    justify-content: center;
+    height: 640px;
+    background: linear-gradient(to bottom, transparent, #A259FF 100%);
+}
+.nftMobileHighlight{
+    display: none;
+}
+.frame240{
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    padding-left: 115px;
+    margin-right: 115px;
+    display: flex;
+    flex-direction: row; 
+    align-items: end;
+    justify-content: space-between;
+}
+.NFTArtsName{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.HighlightArtistCardSpan{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.MagicMashrooms{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.SeeNFT{
+    width: 198px;
+    height: 60px;
+    padding: 22px 48px 22px 48px;
+    border-radius: 20px;
+    border: 2px solid rgba(162, 89, 255, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(43, 43, 43, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.AuctionTimer{
+    width: 295px;
+    height: fit-content;
+    height: 147px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(59, 59, 59, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.timerDiv{
+    width: 295px;
+    height: fit-content;
+    /* height: 147px; */
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-color: #3B3B3B;
+    backdrop-filter: blur(10px);
+}
+
+.timerDiv > .AuctionTimer{
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    padding: 0;
+}
+.timerDiv > .NFTButton{
+    justify-content: center;
+    width: 100%;
+    background-color: #A259FF;
+}
+
+
+.AuctionEndsIn{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.timer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.hours{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.numbers{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.timetext{
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.dots{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+
+
+/* How it works */
+.WorksCardRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.WorksCard{
+    width: 31%;
+    height: auto;
+    padding: 10px 30px 30px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+
+}
+
+
+.workCardDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Setup{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Set{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* Subscribe */
+
+.SubscribeWidget{
+    width: 100%;
+    height: 430px;
+    padding: 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+
+.SubscribeWidget>img{
+    width: 45%;
+    height: 310px;
+}
+
+.frame179{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 45%;
+}
+
+.tabsub{
+    display: none;
+}
+.SubscribeWidget> .tabsub{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* artist page */
+
+.coverProfile{
+    position: relative;
+    width: 100%;
+    height: 320px;   
+    background-size: cover;
+    background-image: url(./assets/ass/artist\ page\ main\ image.png);
+}
+
+.abovePhoto{
+    height: 320px;   
+    background: linear-gradient(to bottom,  rgba(151, 71, 255, 0), rgba(151, 71, 255, 1)  );
+}
+.mainImage{
+    height: 370px;
+    position: relative;
+}
+
+
+.avatar{
+    position: absolute;
+    padding: 250px;
+    padding-left: 115px;
+    z-index: 1;
+}
+
+.artistNameButton{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.mobArtsInfo{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.ArtistName{
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 110%;
+    color: white;
+    font-family: Work Sans;
+    text-align: left;
+    margin: 0;
+    width: 100%;
+}
+
+.numberButton{
+    width: 186px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    border: none;
+    background-color: rgba(162, 89, 255, 1);
+}
+
+.GTAsdesc{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.follow{
+    width: 145px;
+    height: 60px;
+    padding: 0 30px 0 30px;
+    border-radius: 20px;
+    border: 2px solid rgba(162, 89, 255, 1);
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    line-height: 140%;
+    font-family: Work Sans;
+    align-items: center;
+}
+
+
+
+.stats{
+    display: flex;
+    flex-direction: row;
+}
+
+.totalSale{
+    display: flex;
+    flex-direction: column;
+    width: 156.67px;
+}
+
+.numbers{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.statsSpan{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.artistPageInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bioHeading{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(133, 133, 132, 1);
+}
+
+.biodesc{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.webLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.frame249{
+    padding-top: 10px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid #3B3B3B;
+    
+}
+
+.frameline{
+    margin: 0;
+    width: 100%;
+    height: 1px;
+    background-color: aqua;
+}
+
+.frame247{
+    height: 60px;
+    margin-inline: auto;
+    max-width: 1050px;
+    display: flex; 
+    width: 100%;   
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.frame247MOb{
+    display: none;
+}
+
+.tabsLabel {
+    width: 33.33%;
+    padding:  0 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(133, 133, 132, 1);
+}
+
+  
+.tabs__radio {
+    display: none;
+}
+
+.navNumber{
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(59, 59, 59, 1);
+}
+
+.tabsLabel:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.tabs__radio:checked + .tabsLabel {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    ;
+    border-bottom: 2px solid rgba(133, 133, 132, 1);
+    
+  }
+
+.tabs__radio:checked + .tabsLabel + .navNumber{
+    background-color:#858584;
+  } 
+
+.nftbg{
+    width: 100%;
+    background-color: #3B3B3B;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Marketplace */
+.headlineAndSubhead{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.marketHeading{
+    margin: 0;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    color: white;
+}
+.marketplacesubhead{
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: white;
+}
+
+.tabsLabel2 {
+    width: 50%;
+    padding:  0 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(133, 133, 132, 1);
+}
+
+.tabsLabel2:hover{
+    color: white;
+    transition: 0.5s;
+}
+
+.tabs__radio:checked + .tabsLabel2 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    ;
+    border-bottom: 2px solid rgba(133, 133, 132, 1);
+    
+  }
+
+.tabs__radio:checked + .tabsLabel2 + .navNumber{
+    background-color:#858584;
+  } 
+
+.tableheader{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #3B3B3B;
+    border-radius: 20px;
+    padding: 12px 20px;
+    display: flex;
+ align-items: center;
+ justify-content: space-between;
+    
+}
+
+.marketSearch{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #858584
+   
+}
+
+.artistCardTablet{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Nftpage */
+.SectionNFTPageMobile{
+    display: none;
+}
+
+.NFTPageInfo{
+    width: 605px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.NFTPageArtsInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.NFTheafding{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 110%;
+    color: white;
+}
+
+.NFTPageSpan{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #858584;
+}
+
+.NFTPageAdditionalInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.createdBy{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.CreatedByHeading{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 160%;
+    color: #858584;
+}
+
+.NFTPageArtistCard{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.NFTPageArtistCard>img{
+    width: 24px;
+    height: 24px;
+}
+.NFTpageArtistSpan{
+    font-family: Work Sans;
+    font-size: 22px;
+    line-height: 140%;
+    color: white;
+}
+
+
+
+.descriptionP{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    color: white;
+}
+
+.websiteLink{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.websiteLink>span{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    color: white;
+}
+
+.tags{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tagsHeading{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #858584;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.buttons>a{
+    height: 46px;
+    padding: 12px 30px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 140%;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.SectionNFTPage{
+    margin-inline: auto;
+    max-width: 1050px;
+    width: 100%;
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.NFTCardArtPageNFT{
+    width: 330px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #3B3B3B;
+}
+.NFTCardArtPageNFT>img{
+    width: 100%;
+}
+
+.NFTCover{
+    width: 100%;
+    height: 560px;
+}
+
+.NFTCardArtPage{
+    background-color: #2B2B2B;
+}
+.artistPagePrivate{
+    font-family: Space Mono;
+    font-size: 16px;
+    line-height: 140%;
+    color: white;
+}
+.mobArtsInfo{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ranking */
+.tabsLabel3 {
+    width: 25%;
+    padding:  0 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(133, 133, 132, 1);
+}
+
+.tabsLabel3:hover{
+    color: white;
+    border-bottom: 1px solid #3B3B3B ;
+}
+
+.tabs__radio:checked + .tabsLabel3 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 2px solid rgba(133, 133, 132, 1);
+    
+  }
+
+.tabs__radio:checked + .tabsLabel3 + .navNumber{
+    background-color:#858584;
+  } 
+
+
+  .RankingPage{
+    margin-inline: auto;
+    max-width: 1050px;
+    width: 100%;
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.RankingPagemob{
+    display: none;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0 20px; /* 20px gap between rows */
+    width: 100%;
+}
+
+td {
+    height: 84px;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+    padding: 12px 20px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+.header{
+    height: 46px;
+    background-color: transparent;
+    border: 1px solid #3B3B3B;
+}
+
+.rankDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.rank{
+    width: 160px;
+    font-weight: 400;
+    font-size: 16;
+    line-height: 140%;
+    font-family: Space Mono;
+    color: #858584;
+    
+}
+
+.num{
+    font-weight: 400;
+    font-size: 16;
+    line-height: 140%;
+    font-family: Space Mono;
+    color: #858584;   
+}
+
+.rank-Artist, .artistRankCard{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.runkNumber{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(43, 43, 43, 1);
+    border-radius: 20px;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(133, 133, 132, 1);
+}
+
+.rankartistName{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    color: white;
+}
+
+.rankPercent, .rankValue{
+    width: 160px;
+    font-family: Space Mono;
+    font-size: 16px;
+    line-height: 140%;
+    color: #00AC4F;
+    text-align: left;
+}
+
+.rankValue{
+    color: white;
+}
+
+.raningHeadline{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.raningHeadline >h1{
+    margin: 0;
+    font-size: 51px;
+    font-family: Work Sans;
+    line-height: 110%;
+    color: white;
+}
+
+.raningHeadline >p{
+    font-size: 22px;
+    font-family: Work Sans;
+    line-height: 160%;
+    font-weight: 400;
+    color: white;
+}
+
+
+/* login */
+
+.loginsection{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.loginsection> .headlineSubhead{
+    margin-top: 100px;
+}
+.typeforms{
+    width: 330px;
+    /* padding: 12px 20px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 15px;
+}
+
+
+
+
+  
+.SingInInputDiv{
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.SingInInputDiv>img{
+    width: 20px;
+    height: 20px;
+}
+.SingInInputDiv input::placeholder{
+    color: #2B2B2B;
+    font-weight: 400;
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.createAccount{
+    height: 46px;
+    border-radius: 20px;
+    font-family: Work Sans;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 400;
+    border: none;
+    background-color: #A259FF;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mainSection{ 
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.mainImg{
+    width: 50%;
+    height: 642px;
+}
+.connectAWallet{
+    width: 50%;
+    height: 642px;
+    padding: 100px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.headlineSubhead{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headline{
+    font-family: Work Sans;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: White;
+    margin: 0;
+}
+
+.WalletSubhead{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.walletOptions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subhead{
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.coins{
+    width: 320px;
+    height: 72px;
+    padding: 0 20px 0 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(162, 89, 255, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.coins>img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 334px;
+    padding: 40px 115px 40px 115px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 2px solid #2B2B2B;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.footerInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.NFTMarketplaceInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footerAdditionalInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Nft{
+    width: 238px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+
+.community{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.CommHeader{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.explre{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;   
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.pages{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pagespan{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+
+.footerSubscribe{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footerSubheading{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footerSubscInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerSubP{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+.form5{
+    width: 100%;
+    height: 60px;
+    padding: 16px 0 16px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+input{
+    width: 182px;
+    border: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+
+.email::placeholder{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(43, 43, 43, 1);
+}
+
+.subscribebutton{
+    position: absolute;
+    display: none;
+    right: 0;
+    top: 0;
+    width: 211px;
+    height: 60px;
+    padding: 0 50px 0 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    background-color: rgba(162, 89, 255, 1);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.form2{
+    display: none;
+}
+
+.deviderdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.devider{
+    margin: 0;
+    width: 100%;
+    background-color: rgba(133, 133, 132, 1);
+}
+
+.abbr{
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(204, 204, 204, 1);
+}
+
+
+
+
+
+
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+   
+  
+    nav{
+        width: 100%;
+    }
+
+
+    .navMenu{
+        display: none;
+    }
+
+    .burgerMenu{
+        display: block;
+    }
+
+
+    /* herpSection */
+    .heroSection{
+        display: flex;
+        flex-direction: row;
+        padding: 80px 72px 80px  72px;
+    }
+
+    .heroSectionFrame{
+        gap: 30px;
+    }
+    .heroSectionFrameMob{
+        display: none;
+    }
+
+    .heroTextButtons{
+        gap: 20px !important;
+        width: 45%;      
+    }
+
+    .Homepageheadline{
+        font-size: 38px;
+        line-height: 120%;
+    }
+
+    .HomepageSubhead{
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .subhead{
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+    }
+    
+
+
+    .info{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 160%;
+    }
+    
+    .additionalInfospan{
+        font-size: 16px;
+        line-height: 140%;
+    }
+    
+    .highlitedNFT{
+        width: 45%;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .highlitedNFT>img{
+        height: 221px;
+    }
+
+
+    /* Trending collection */
+
+    .Section{ 
+        margin-inline: auto;
+        max-width: 690px;
+        width: 100%;
+        padding: 40px 0 40px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+ 
+    .formob{
+        width: fit-content;
+    }
+    .formob>img{
+        display: none;
+    }
+
+    .SectionHeading{
+        font-size: 28px;
+        line-height: 140%;
+    }
+
+    .SectionSubhead{
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .collectionCard{
+        width: 48%;
+    }
+        
+    .collectionCard:nth-child(3) {
+        display: none;
+    }
+
+
+
+    /* Top Rated Artists */
+
+    .headlineButtons{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+
+    .rocketSpan{
+        width: 115px;
+    }
+
+    .artistcardsRowmob{
+        display: none;
+    }
+
+    .artistcardsRow{
+        width: auto;
+        gap: 30px;
+    }
+    .artistcardsRow:nth-child(3){
+        display: none;
+    }
+
+    .TopartistCard{
+        width: 330px;
+        height: 100px;
+        flex-direction: row;
+        gap: 20px;
+        position: relative;
+    }
+
+    .TopartistCard>img{
+        margin: 0;
+        width: 60px;
+        height: 60px;
+    }
+
+    .artistInfo{
+        align-items: start;
+    
+        
+    }
+    .runkingNumber{
+        position: absolute;
+        margin-top: -7px;
+        margin-left: -8px;
+    }
+    .totalSale2, .base{
+        width: 102px;
+    }
+
+
+
+    /* browse */
+
+    .collectionName2{
+        padding: 20px 20px 25px 20px;
+    }
+
+
+    .collectionName2> .Name{
+        font-size: 16px;
+        letter-spacing: 140%;
+    }
+
+    .categoryCard{
+        width: 23%;
+        height: 209px;
+    }
+
+    .iconDiv{
+        width: 100%;
+        height: 142px;
+    }
+
+    .iconDiv>img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .photoIcon, .photoIcon2, .photoIcon3, .photoIcon4, .photoIcon5, .photoIcon6, .photoIcon7, .photoIcon8{
+        width: 100%;
+        height: 142px;
+        background-size: cover;
+        border-top-left-radius: 20px;
+
+        border-top-right-radius: 20px;
+    }
+
+
+    /* Discover */
+
+    .NFTCard{
+        width: 47%;
+    }
+
+    .NFTCard:nth-child(3){
+        display: none;
+    }
+
+
+
+
+    /* NFT Highlight */
+    .NFTHighlight{
+        height: 630px;
+        background-image: url(./assets/ass/NFT\ Highlight\ \(1\).png);
+        background-size: cover;
+        
+    }
+
+    .MagicMashrooms{
+        font-size: 38px;
+        line-height: 120%;
+    }
+
+
+
+    /* How it works */
+    .WorksCardRow{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .WorksCard{
+        height: 320px;
+    }
+
+    .Setup{
+        margin: 0;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .Set{
+        font-family: Work Sans;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+    /* Subscribe */
+
+    .SubscribeWidget{
+        padding: 40px 30px;
+        height: 360px;
+        gap: 30px;
+    }
+    .SubscribeWidget>img{
+        width: 45%;
+        height: 280px;
+    }
+
+    .SectionHeading{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 140%;
+    }
+
+    .tSubhead{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+
+
+    .frame179{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+    .frame179> form{
+        display: none;
+        background-color: red;
+    }
+
+    .subscribeMobile{
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .SubscribeWidget> .tabsub{
+        display: none;
+    }
+    .tabsub{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .tabemail{
+        padding: 16px 20px 16px 20px;
+        border-radius: 20px;
+        width: 100%;
+        height: 46px;
+        border: none;
+        display: flex;
+        align-items: center;
+        outline: none;
+    }
+
+    .tabemail::placeholder{
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(43, 43, 43, 1);
+    }
+
+    .tabsubm{
+    width: 100%;
+    height: 46px;
+    padding: 0 50px 0 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    background-color: rgba(162, 89, 255, 1);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    }
+
+
+    .mobArtsInfo{
+        display: flex;
+    }
+
+    .artistNameButton{
+        display: none;
+
+    }
+    .ArtistName{
+        font-family: Work Sans;
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .numbers{
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .statsSpan{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .bioHeading{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .biodesc{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .tabsLabel:hover{
+        color: white;
+        transition: 0.5s;
+    }
+
+    .NFTCardRow{
+        gap: 30px;
+    }
+    .NFTCardRow>a{
+        width: 50%;    
+    }
+
+    .NFTCardArtPage{
+        width: 100%;
+        background-color: #2B2B2B;
+    }
+
+    .NFTCardArtPage:nth-child(7){
+        display: none;
+    }
+
+    .NFTCardArtPage:nth-child(8){
+        display: none;
+    }
+    .NFTCardArtPage:nth-child(9){
+        display: none;
+    }
+    .mobArtsInfo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+
+
+    .marketHeading{
+        font-size: 38px;
+        line-height: 120%;
+    }
+
+    .ArtistCards{
+        display: none;
+    }
+
+    .artistCardTablet{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .NFTCardRow>a{
+        width: 47%;
+    }
+    
+    .tabletCard> .NFTCardArtPage{
+        width: 100%;
+    }
+
+
+
+    /* NFTPage Content */
+    .SectionNFTPage{
+        margin-inline: auto;
+        max-width: 690px;
+        width: 100%;
+        padding: 40px 0 40px 0;
+    }
+
+    .NFTPageInfo{
+        max-width: 365px;
+        display: block;
+    }
+    
+    .NFTheafding{
+        font-size: 38px;
+        line-height: 120%;
+    }
+
+    .NFTPageSpan, .descriptionP{
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+
+    .CreatedByHeading, .NFTpageArtistSpan{
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .buttons{
+        display: flex;        
+        flex-direction: column;
+    }
+
+    .buttons > a{
+        width: fit-content;
+    }
+
+    .websiteLink> span{
+        font-size: 16px;
+        line-height: 140%;
+    }
+    
+    .NFTCover{
+        height: 420px;
+    }
+
+
+    .SectionNFTPageMobile{
+        display: none;
+    }
+
+
+    /* panking page */
+    .RankingPage{
+        margin-inline: auto;
+        max-width: 690px;
+        width: 100%;
+        padding: 40px 0 40px 0;
+    }
+
+    .RankingPagemob{
+        display: none;
+    }
+
+
+    .raningHeadline >h1{
+        margin: 0;
+        font-size: 38px;
+        line-height: 120%;
+    }
+    
+    .raningHeadline >p{
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .tabsLabel3{
+        width: 25%;
+        padding:  0 10px;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #858584;
+    }
+    .frame247{
+        height: 60px;
+        margin-inline: auto;
+        max-width: 680px;
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .frame247MOb{
+        display: none;
+    }
+
+    .rankDiv:nth-child(2) .rank:nth-child(2) {
+        display: none;
+    }
+    .rankDiv .rankValue:nth-child(2) {
+        display: none;
+    }
+
+    .rankartistName{
+        font-size: 22px;
+        line-height: 140%;
+    }
+
+    .rankPercent, .rankValue{
+        width: 100px;
+    }
+
+    .artistRankCard{
+        gap: 12px;
+    }
+
+    .artistRankCard> img{
+        width: 24px;
+        height: 24px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .mainSection{
+        gap: 40px;
+        height: auto;
+    }
+
+    .mainImg{
+        height: auto;
+    }
+
+    .connectAWallet{
+        padding: 80px 77px 80px 0;
+        width: auto;
+    }
+
+    .headline{
+        font-family: Work Sans;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 46px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .WalletSubhead{
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+    }
+
+
+    /* login */
+    .loginsection{
+        height: 615px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: start;
+    }
+    .loginsection> .headlineSubhead{
+        margin-top: 80px;
+    }
+
+    .typeforms{
+        padding: 0;
+    }
+
+    footer{
+        padding: 40px 72px 40px 72px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        gap: 49px;
+        height: auto;
+    }
+
+    .footerInfo{
+        flex-direction: column;
+        gap: 30px;
+        justify-content: left;
+    }
+
+    .NFTMarketplaceInfo{
+        gap: 20px;
+    }
+
+    .Explore{
+        gap: 20px;
+    }
+
+    .subscribebuttonMob{
+        display: flex;
+    }
+
+    .footerSubscribe{
+        gap: 20px;
+    }
+
+    .form2{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+    nav{
+        width: 100%;
+        padding: 15px 30px 15px 30px;
+        height: 54px;
+    }
+
+    .footerSubscribe{
+        width: 100%;
+    }
+    .mainImg{
+        height: 232px;
+    }
+
+   
+    .navMenu{
+        display: none;
+    }
+
+    .burgerMenu{
+        display: block;
+    }
+
+    .mainSection{
+        flex-direction: column;
+        gap: 0;
+    }
+
+
+        /* herpSection */
+    /* .heroSection{
+         width: 100%;
+        height: 786px;
+        display: flex;
+        padding: 40px 30px 40px  30px;
+    } */
+
+
+    .heroTextButtons{
+        gap: 30px !important;
+        width: 100%;
+      
+    }
+ 
+    .heroSectionFrame{
+        display: none;
+    }
+
+    .heroSectionFrameMob{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .headlineSubhead{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .Homepageheadline{
+        font-size: 28px;
+        line-height: 140%;
+    }
+
+    .HomepageSubhead{
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .getStarted{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .additionalInfo{
+        width: 100%;
+        height: 57px;
+    }
+    .info{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 160%;
+    }
+    
+    .additionalInfospan{
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .highlitedNFT{
+        width: 100%;
+        height: 315px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .highlitedNFT>img{
+        height: 206px;
+    }
+
+    .signIn{
+        width: 100%;
+    }
+
+
+    /* Trending collection */
+
+    .Section, .heroSection{
+        margin-inline: auto;
+        max-width: 315px;
+        width: 100%;
+        padding: 40px 0 40px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .SectionHeading{
+        font-size: 28px;
+        line-height: 140%;
+    }
+
+    .SectionSubhead{
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .collectionCard{
+        width: 100%;
+    }
+
+    .collectionCard:nth-child(2) {
+        display: none;
+    }
+    
+    .collectionCard:nth-child(3) {
+        display: none;
+    }
+
+    .frame228>img, .numberDiv{
+        width: 95px;
+        height: 95px;
+
+    }
+
+
+    /* Top Rated Artists */
+    .artistcardsRowmob{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .headlineButtons{
+        display: none;
+    }
+
+    .artistcardsRow{
+        display: none;
+    }
+
+    .mobContent{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+
+
+    .rockeet{
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    .TopartistCard{
+        width: 100%;
+        height: 100px;
+        flex-direction: row;
+
+    }
+
+    .TopartistCard>img{
+        margin: 0;
+        width: 60px;
+        height: 60px;
+    }
+
+    .artistInfo{
+        align-items: start;    
+    }
+
+    .runkingNumber{
+        position: absolute;
+        margin-top: -7px;
+        margin-left: -8px;
+    }
+
+    .totalSale2, .base{
+        width: 102px;
+    }
+
+
+
+    /* browse */
+    .categoryCardsRow{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .categoryCardsRow>a{
+        width: 45%;
+    }
+    .collectionName2{
+        padding: 20px 20px 25px 20px;
+    }    
+
+    .collectionName2> .Name{
+        font-size: 16px;
+        letter-spacing: 140%;
+    }
+
+    .categoryCard{
+        width: 100%;
+        height: 209px;
+    }
+    
+
+    .photoIcon, .photoIcon2, .photoIcon3, .photoIcon4, .photoIcon5, .photoIcon6, .photoIcon7, .photoIcon8, .iconDiv{
+        height: 142px;
+    }
+
+
+
+
+    /* Discover */
+    .NFTCardRow{
+        display: none
+    }
+
+    .NFTCardRow2{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .NFTCardRow2>a{
+        text-decoration: none;
+    }
+
+    .artistcardsRowmob{
+        width: 100%;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .NFTCard{
+        width: 100%;
+    }
+
+
+
+/* NFT Highlight */
+.NFTHighlight{
+    height: 593px;
+    background-image: url(./assets/ass/NFT\ Highlight\ mob.png);
+    background-size: cover;
+    
+}
+.NFTHighInfo{
+    display: none;
+}
+
+.nftMobileHighlight{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(to bottom, transparent, #A259FF 100%);
+    height: 593px;
+    justify-content: center;
+    
+}
+.frame240{
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    padding-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+}
+
+.MagicMashrooms{
+    font-size: 38px;
+    line-height: 120%;
+}
+
+.NFTArtsName{
+    padding: 120px 30px 0 30px;
+}
+
+
+.AuctionTimer{
+    width: 100%;
+    height: 147px;
+}
+.SeeNFT{
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+/* How it works */
+.WorksCardRow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.WorksCard{
+    width: 100%;
+    height: 157px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.WorksCard>img{
+    width: 100px;
+    height: 100px;
+}
+
+.Setup{
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Set{
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.workCardDetails{
+    width: 100%;
+}
+
+
+/* Subscribe */
+
+.SubscribeWidget{
+    height: 565px;
+    flex-direction: column;
+    padding: 0;
+    gap: 30px;
+    background-color: transparent;
+}
+.SubscribeWidget>img{
+    width: 100%;
+    height: 255px;
+}
+
+
+.SectionHeading{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+
+
+
+.frame179{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+
+form{
+    height: 46px;
+}
+
+ .frame179> form{
+    display: none;
+    background-color: red;
+}
+
+.frame179>.subscribeMobile{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: aquamarine;
+}
+
+
+.frame179> .tabsub{
+    display: flex;
+}
+
+.tabsub{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.tabemail{
+    padding: 16px 20px 16px 20px;
+    border-radius: 20px;
+    width: 100%;
+    height: 46px;
+    border: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+}
+
+.tabemail::placeholder{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(43, 43, 43, 1);
+}
+
+.tabsubm{
+width: 100%;
+height: 46px;
+padding: 0 50px 0 50px;
+border-radius: 20px;
+display: flex;
+flex-direction: row;
+gap: 12px;
+background-color: rgba(162, 89, 255, 1);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+border: none;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+
+
+.mainImage{
+    height: 300px;
+}
+
+.coverProfile{
+    position: relative;
+    width: 100%;
+    height: 250px;   
+    background-size: cover;
+    background-image: url(./assets/ass/artist\ page\ main\ image.png);
+}
+
+.abovePhoto{        
+    padding-top: 180px;     
+    height: 250px;   
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom,  rgba(151, 71, 255, 0), rgba(151, 71, 255, 1)  );
+}
+.avatar{
+    display: flex;
+    margin: auto;
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    padding: 0;
+}
+
+
+.artistNameButton{
+    display: none;
+}
+
+.mobArtsInfo{
+    display: flex;
+}
+
+.ArtistName{
+    font-size: 28px;
+    line-height: 140%;
+    font-family: Work Sans;
+}
+
+.numberButton, .follow{
+    width: 100%;
+    justify-content: center;
+}
+
+.GTAsdesc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.numbers{
+    margin: 0;
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.statsSpan{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.bioHeading{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.biodesc{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.sectionHeadline2{
+    display: none;
+}
+
+.NFTCardArtPage{
+    width: 100%;
+}
+
+/* .frame247{
+    height: 60px;
+    margin-inline: auto;
+    max-width: 680px;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
+
+.tabsLabel{
+    padding:  0 10px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(133, 133, 132, 1);
+}
+
+.tabsLabel3{
+    padding:  0 ;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#858584;
+    width: 25%;
+}
+
+.navNumber{
+    display: none;
+}
+
+
+.headline{
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.subhead{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+
+
+.marketHeading{
+    font-size: 28px;
+    line-height: 140%;
+}
+.tabsLabel2{
+    padding:  0 10px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(133, 133, 132, 1);
+}
+
+    /* NFTPage Content */
+
+
+    .SectionNFTPage{
+        display: none;
+    }
+    .SectionNFTPageMobile{
+        margin-inline: auto;
+        max-width: 315px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px 0 40px 0;
+    }
+    .timerDiv{
+        width: 100%;
+    }
+    
+    .NFTheafding{
+        font-size: 28px;
+        line-height: 140%;
+    }
+
+    .NFTPageSpan, .descriptionP{
+        font-size: 16px;
+        line-height: 140%;
+    }
+ 
+    .CreatedByHeading, .NFTpageArtistSpan{
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .buttons{
+        display: flex;        
+        flex-direction: column;
+    }
+
+    .buttons > a{
+        width: fit-content;
+    }
+
+    .websiteLink> span{
+        font-size: 16px;
+        line-height: 140%;
+    }
+    
+    .NFTPageAdditionalInfo{
+        gap: 20px;
+    }
+
+    .NFTCover{
+        height: 320px;
+    }
+
+
+
+
+    /* panking page */
+
+    .RankingPage{
+        display: none;
+    }
+
+    .RankingPagemob{
+        margin-inline: auto;
+        max-width: 315px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px 0 40px 0;
+    }
+    
+
+    .raningHeadline{
+        gap: 10px;
+    }
+    .raningHeadline >h1{
+        margin: 0;
+        font-size: 28px;
+        line-height: 140%;
+    }
+    
+    .raningHeadline >p{
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .frame247{
+        display: none;
+    }
+    
+    .rankDiv:nth-child(2) .rank:nth-child(2) {
+        display: none;
+    }
+    .rankDiv .rankValue:nth-child(2) {
+        display: none;
+    }
+    .rankDiv:nth-child(2) .rank:nth-child(1) {
+        display: none;
+    }
+   
+    .rankDiv .rankPercent:nth-child(1) {
+        display: none;
+    }
+
+   .rank, .rankValue{
+        width: 80px;
+    }
+
+    .rankartistName{
+        font-size: 16px;
+        line-height: 140%;
+        font-weight: 400;
+    }
+
+    .artistRankCard>img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .rank-Artist> .runkNumber{
+        width: 24px;
+        height: 24px;        
+        background-color: transparent;
+
+    }
+
+    .artistRankCard{
+        gap: 12px;
+    }
+
+    .rank-Artist, .artistRankCard{
+        gap: 10px;
+    }
+
+
+    .frame247M{
+        display: none;
+    }
+
+    .frame247MOb{
+        height: 60px;
+        margin-inline: auto;
+        max-width: 315px;
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+
+
+    /* login */
+    .loginsection{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        /* height: 515px; */
+        padding: 30px 0 40px 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        gap: 30px;
+    }
+    .loginsection> .headlineSubhead{
+        margin-top: 30px;
+    }
+    .typeforms{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        height: auto;
+    }
+    
+    .createAccount{
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+
+.mainImg{
+    width: 100%;
+}
+    
+.connectAWallet{
+        width: auto;
+        height: auto;
+        padding: 30px 0 40px 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        gap: 30px;
+}
+
+
+.coins{
+    width: 100%;
+}
+
+    
+footer{
+    width: 100%;
+    height: 776px;
+    padding: 40px 30px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgba(59, 59, 59, 1);
+
+}
+
+.footerInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Nft{
+    width: 100%;
+    height: 44px;
+}
+
+.NFTMarketplaceInfo{
+    gap: 20px;
+}
+
+.Explore{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerSubscribe{
+    gap: 20px;
+}
+
+input{
+    width: 100%;
+}
+
+.subscribebutton{
+    display: none;
+}
+
+.form5{
+    height: 46px;
+    width: 100%;
+}
+
+.subscribebuttonMob{
+    width: 100%;
+    height: 46px;
+    padding: 0 50px 0 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    background-color: rgba(162, 89, 255, 1);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.subscribelink{
+    width: 100%;
+    height: 60px;
+    padding: 0 50px 0 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    background-color: rgba(162, 89, 255, 1);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    
+}
+
+.form2{    
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.subscribeMobile{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+}
+
+
+
+
+
+
+
+
+
